@@ -28,6 +28,7 @@ function App() {
       const keyValue = refs.current[id].key.current.value;
       console.log(`Column ${id}:`, { name: nameValue, key: keyValue });
     });
+    alert("Malumotlar muvaffaqiyatli consolega chiqarildi !")
   };
 
   return (
